@@ -7,9 +7,9 @@
  * Time: 16:04
  */
 
-namespace Edujugon\Laradoo;
+namespace Esign\Laradoo;
 
-use Edujugon\Laradoo\Exceptions\OdooException;
+use Esign\Laradoo\Exceptions\OdooException;
 use Illuminate\Support\Collection;
 use ripcord;
 

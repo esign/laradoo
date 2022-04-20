@@ -1,4 +1,4 @@
-<?php namespace Edujugon\Laradoo\Facades;
+<?php namespace Esign\Laradoo\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -9,6 +9,6 @@ class Odoo extends Facade {
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return \Edujugon\Laradoo\Odoo::class; }
+    protected static function getFacadeAccessor() { return \Esign\Laradoo\Odoo::class; }
 
 }

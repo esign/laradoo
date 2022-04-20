@@ -1,6 +1,6 @@
 <?php
 
-use Edujugon\Laradoo\Odoo;
+use Esign\Laradoo\Odoo;
 use Illuminate\Support\Collection;
 use PHPUnit\Framework\TestCase;
 

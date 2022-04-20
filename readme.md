@@ -4,10 +4,10 @@
 
 Odoo ERP API for Laravel. [Odoo website](https://www.odoo.com)
 
-[![Build Status](https://github.com/edujugon/laradoo/workflows/CI/badge.svg)](https://github.com/Edujugon/laradoo/actions)
-[![Total Downloads](https://poser.pugx.org/edujugon/laradoo/downloads)](https://packagist.org/packages/edujugon/laradoo)
-[![Latest Stable Version](https://poser.pugx.org/edujugon/laradoo/v/stable)](https://packagist.org/packages/edujugon/laradoo)
-[![License](https://poser.pugx.org/edujugon/laradoo/license)](https://packagist.org/packages/edujugon/laradoo)
+[![Build Status](https://github.com/esign/laradoo/workflows/CI/badge.svg)](https://github.com/Esign/laradoo/actions)
+[![Total Downloads](https://poser.pugx.org/esign/laradoo/downloads)](https://packagist.org/packages/esign/laradoo)
+[![Latest Stable Version](https://poser.pugx.org/esign/laradoo/v/stable)](https://packagist.org/packages/esign/laradoo)
+[![License](https://poser.pugx.org/esign/laradoo/license)](https://packagist.org/packages/esign/laradoo)
 
 ## Compatibility
 
@@ -22,14 +22,14 @@ Odoo ERP API for Laravel. [Odoo website](https://www.odoo.com)
 type in console:
 
 ```shel
-composer require edujugon/laradoo
+composer require esign/laradoo
 ```
 
 Register Laradoo service by adding it to the providers array.
 ```php
 'providers' => [
     ...
-    Edujugon\Laradoo\Providers\OdooServiceProvider::class,
+    Esign\Laradoo\Providers\OdooServiceProvider::class,
 ],
 ```
 
@@ -37,14 +37,14 @@ Let's add the Alias facade, add it to the aliases array.
 ```php
 'aliases' => array(
         ...
-        'Odoo' => Edujugon\Laradoo\Facades\Odoo::class,
+        'Odoo' => Esign\Laradoo\Facades\Odoo::class,
     )
 ```
 
 Publish the package's configuration file to the application's own config directory
 
 ```php
-php artisan vendor:publish --provider="Edujugon\Laradoo\Providers\OdooServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Esign\Laradoo\Providers\OdooServiceProvider" --tag="config"
 ```
 
 ### Configuration
@@ -62,7 +62,7 @@ Also, you can dynamically update those values calling the available setter metho
 Instance the main Odoo class:
 
 ```php
-$odoo = new \Edujugon\Laradoo\Odoo();
+$odoo = new \Esign\Laradoo\Odoo();
 ```
 You can get the Odoo API version just calling the version method:
 

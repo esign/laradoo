@@ -4,7 +4,7 @@
 
 Odoo ERP API for Laravel. [Odoo website](https://www.odoo.com)
 
-[![Build Status](https://api.travis-ci.org/Edujugon/laradoo.svg)](https://api.travis-ci.org/Edujugon/laradoo)
+[![Build Status](https://github.com/edujugon/laradoo/workflows/CI/badge.svg)](https://github.com/Edujugon/laradoo/actions)
 [![Total Downloads](https://poser.pugx.org/edujugon/laradoo/downloads)](https://packagist.org/packages/edujugon/laradoo)
 [![Latest Stable Version](https://poser.pugx.org/edujugon/laradoo/v/stable)](https://packagist.org/packages/edujugon/laradoo)
 [![License](https://poser.pugx.org/edujugon/laradoo/license)](https://packagist.org/packages/edujugon/laradoo)
@@ -12,7 +12,8 @@ Odoo ERP API for Laravel. [Odoo website](https://www.odoo.com)
 ## Compatibility
 
 | Laravel version | PHP version | Package version |
-|---|---|---|
+|------|------|-------|
+| ^8.0 | ^7.3 | ^V3.0 |
 | ^5.1 | ^5.6 | ^V2.0 |
 | ^5.1 | ^5.5 | ^V1.1 |
 
@@ -39,7 +40,7 @@ Let's add the Alias facade, add it to the aliases array.
         'Odoo' => Edujugon\Laradoo\Facades\Odoo::class,
     )
 ```
-    
+
 Publish the package's configuration file to the application's own config directory
 
 ```php

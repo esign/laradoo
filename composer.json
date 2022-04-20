@@ -1,5 +1,5 @@
 {
-  "name": "edujugon/laradoo",
+  "name": "esign/laradoo",
   "description": "Odoo ERP API for Laravel",
   "keywords": [
     "odoo",
@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Edujugon\\Laradoo\\": "src/"
+      "Esign\\Laradoo\\": "src/"
     },
     "classmap": [
       "src/ripcord"

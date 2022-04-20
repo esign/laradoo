@@ -26,10 +26,10 @@ composer require edujugon/laradoo
 
 Register Laradoo service by adding it to the providers array.
 ```php
-'providers' => array(
-        ...
-        Edujugon\Laradoo\Providers\OdooServiceProvider::class
-    )
+'providers' => [
+    ...
+    Edujugon\Laradoo\Providers\OdooServiceProvider::class,
+],
 ```
 
 Let's add the Alias facade, add it to the aliases array.

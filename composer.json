@@ -32,5 +32,7 @@
     "files": [
       "src/Support/helpers.php"
     ]
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
